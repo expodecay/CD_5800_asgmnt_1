@@ -13,16 +13,16 @@ public class driver {
         File index    = new File("index.html");
 
         Folder phalcon = new Folder(".phalcon");
-        Folder cache = new Folder("cache");
+        Folder cache   = new Folder("cache");
         Folder _public = new Folder("public");
 
-        Folder app = new Folder("app");
-        Folder config = new Folder("config");
+        Folder app         = new Folder("app");
+        Folder config      = new Folder("config");
         Folder controllers = new Folder("controllers");
-        Folder library = new Folder("Library");
-        Folder migrations = new Folder("migrations");
-        Folder models = new Folder("models");
-        Folder views = new Folder("views");
+        Folder library     = new Folder("Library");
+        Folder migrations  = new Folder("migrations");
+        Folder models      = new Folder("models");
+        Folder views       = new Folder("views");
 
         php_demo1.add_sub_folder(source_files);
         php_demo1.add_sub_folder(include_path);
@@ -50,5 +50,4 @@ public class driver {
         php_demo1.print_structure();
 
     }
-
 }

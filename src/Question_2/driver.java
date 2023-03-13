@@ -1,9 +1,7 @@
 package Question_2;
 
 public class driver {
-
     public static void main(String[] args) {
-
         Ship[] ships = new Ship[3];
 
         ships[0] = new Ship("Default Ship", "2001");

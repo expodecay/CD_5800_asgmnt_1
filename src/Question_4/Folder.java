@@ -39,7 +39,6 @@ public class Folder {
 
     public void delete(Folder subfolder__){
         this.sub_folders.remove(subfolder__);
-
     }
 
     public void print_name(){
