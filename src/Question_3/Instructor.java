@@ -3,9 +3,9 @@ package Question_3;
 public class Instructor {
     private String instructor_first_name;
     private String instructor_last_lane;
-    private int office_number;
+    private String office_number;
 
-    public Instructor(String first_name, String last_name, int office_number){
+    public Instructor(String first_name, String last_name, String office_number){
         this.instructor_first_name = first_name;
         this.instructor_last_lane  = last_name;
         this.office_number         = office_number;
@@ -19,7 +19,7 @@ public class Instructor {
         return instructor_last_lane;
     }
 
-    public int getOffice_number() {
+    public String getOffice_number() {
         return office_number;
     }
 
@@ -31,7 +31,7 @@ public class Instructor {
         this.instructor_last_lane = instructor_last_lane;
     }
 
-    public void setOffice_number(int office_number) {
+    public void setOffice_number(String office_number) {
         this.office_number = office_number;
     }
 }

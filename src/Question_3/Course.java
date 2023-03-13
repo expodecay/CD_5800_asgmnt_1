@@ -37,8 +37,8 @@ public class Course {
     }
 
     public void print_info(){
-        System.out.println("Course Name: " + this.course_name + "\n" +
+        System.out.println("-------------------------------\nCourse Name: " + this.course_name + "\n" +
                 "Instrustor: " + instructor.getInstructor_first_name() + " " + instructor.getInstructor_last_lane() + "\n" +
-                "Textbook: " + textbook.getTitle() + " Author: " + textbook.getAuthor() + "Publisher" + textbook.getPublisher());
+                "Textbook: " + textbook.getTitle() + " Author: " + textbook.getAuthor() + " Publisher: " + textbook.getPublisher());
     }
 }
