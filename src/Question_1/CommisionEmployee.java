@@ -4,7 +4,6 @@ public class CommisionEmployee extends Employee{
     private double comission_rate;
     private double gross_sales;
 
-
     public CommisionEmployee(String first_name, String last_name, String social_security_number, double comission_rate, double gross_sales) {
         super(first_name, last_name, social_security_number);
 

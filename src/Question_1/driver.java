@@ -25,10 +25,5 @@ public class driver {
         System.out.println(Mike.getFirst_name() + "          " + Mike.getLast_name() + "   " +  Mike.getSocial_security_number() + "                                                                    $" + Mike.getBase_salary());
 
         System.out.println(Mahnaz.getFirst_name() + "        " + Mahnaz.getLast_name() + "      " +  Mahnaz.getSocial_security_number() + "                                            " + Mahnaz.getComission_rate() + "       $" + Mahnaz.getGross_sales());
-
-
-
-
-
     }
 }
