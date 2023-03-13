@@ -46,10 +46,19 @@ public class Folder {
     }
 
     public void print_structure(){
+        print_structure_temp(1);
+    }
+
+    private void print_structure_temp(int level){
+
         System.out.println(this.getName());
         for(Folder folder: sub_folders){
+            for(int i= 0; i<level; i++) {
+                System.out.print(" ");
+            }
+
             System.out.print("   +");
-            folder.print_structure();
+            folder.print_structure_temp(level+2);
         }
         for(File file : files){
             System.out.print("   -");

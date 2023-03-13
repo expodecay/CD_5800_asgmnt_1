@@ -16,6 +16,7 @@ public class CruiseShip extends Ship{
         this.max_passengers = max_passengers;
     }
 
+    @Override
     public String print_ship_info(){
         return "..............................\nShip Name : " +  this.getShip_name() + "\nMaximum number of passengers : " + this.getMax_passengers();
     }

@@ -16,6 +16,7 @@ public class CargoShip extends Ship{
         this.cargo_capacity = cargo_capacity;
     }
 
+    @Override
     public String print_ship_info(){
         return "..............................\nShip Name: " +  this.getShip_name() + "\nCargo Capacity : " + this.getCargo_capacity() ;
     }
