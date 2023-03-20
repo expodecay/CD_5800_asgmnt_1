@@ -50,13 +50,11 @@ public class Folder {
     }
 
     private void print_structure_temp(int level){
-
         System.out.println(this.getName());
         for(Folder folder: sub_folders){
             for(int i= 0; i<level; i++) {
                 System.out.print(" ");
             }
-
             System.out.print("   +");
             folder.print_structure_temp(level+2);
         }
